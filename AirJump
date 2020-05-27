@@ -1,0 +1,10 @@
+	public AirJump() {
+		super("AirJump", Category.Misc);
+	}
+	
+	//class : 4OGQ
+	
+	@EventTarget
+	public void onUpdate(EventUpdate e) {
+		mc.thePlayer.onGround = true;
+	}
