@@ -6,5 +6,5 @@
 	
 	@EventTarget
 	public void onupdate(EventUpdate e) {
-		mc.thePlayer.onGround = (int)(98579706L ^ 98579707L) != 0;
+		mc.thePlayer.onGround = true;
 	}
